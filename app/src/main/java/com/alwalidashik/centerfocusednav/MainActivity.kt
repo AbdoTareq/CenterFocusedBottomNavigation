@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         bottom_navigation_main.itemIconTintList = null
         iv_add.setOnClickListener(this)
     }
